@@ -1,6 +1,6 @@
 # coderazor.io Repo
 
-Primary software engineering site. Using meteor
+Primary software engineering site. Using meteor with reactive programming and nodejs.
 
 ## Introduction
 
@@ -12,8 +12,8 @@ Primary website
 
 ## Deployment
 
-Just copy deploy...
+Git deploy with mup...
 
 ### Copyright
 
-coderazor.io. all rights reserved.
+coderazor.io. all rights reserved 2016...
