@@ -3,16 +3,49 @@
 	<article id="main">
 		<header>
 			<h2>Learning</h2>
-			<p>Books and links I find useful...</p>
+			<p>Reads and surfs I find useful...</p>
 		</header>
 		<section class="wrapper style5">
 			<div class="inner">
+				
+				<section>
+					<h4>Some really great reads...</h4>
+					<div class="table-wrapper">
+						<table>
+							<tbody>
+								{{#each books}}
+								<tr>
+									<td><a href="{{url}}">{{name}}</a></td>
+									<td>{{description}}</td>
+								</tr>
+								{{/each}}
+							</tbody>
+						</table>
+					</div>
+				</section>
 
+				<section>
+					<h4>Some really great surfs...</h4>
+					<div class="table-wrapper">
+						<table>
+							<tbody>
+								{{#each sites}}
+								<tr>
+									<td><a href="{{url}}">{{name}}</a></td>
+									<td>{{description}}</td>
+								</tr>
+								{{/each}}
+							</tbody>
+						</table>
+					</div>
+				</section>
+<!--
 				<section>
 					<h4>Books</h4>
 					<div class="table-wrapper">
+
 						<table>
-						<!--
+						
 							<thead>
 								<tr>
 									<th>Name</th>
@@ -20,7 +53,9 @@
 									<th>Link</th>
 								</tr>
 							</thead>
-							-->
+							
+
+
 							<tbody>
 								<tr>
 									<td><a href="http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?ie=UTF8&qid=1457022070&sr=8-1&keywords=pragmatic+programmer">The Pragmatic Programmer</a></td>
@@ -73,7 +108,7 @@
 					<h4>Sites</h4>
 					<div class="table-wrapper">
 						<table>
-						<!--
+						
 							<thead>
 								<tr>
 									<th>Name</th>
@@ -81,7 +116,7 @@
 									<th>Link</th>
 								</tr>
 							</thead>
-							-->
+							
 							<tbody>
 								<tr>
 									<td><a href="http://www.infoq.com">InfoQ</a></td>
@@ -105,6 +140,7 @@
 					</div>
 
 				</section>
+				-->
 			</div>
 		</section>
 	</article>
